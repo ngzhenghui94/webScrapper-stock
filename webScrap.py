@@ -3,7 +3,9 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from datetime import datetime
 
+#add the stocks you want into this list. You should use 'https://finance.yahoo.com/quote/XXX' where XXX is the stock identifier. 
 stocks = ['https://finance.yahoo.com/quote/VTI/','https://finance.yahoo.com/quote/VGK/','https://finance.yahoo.com/quote/VPL/','https://finance.yahoo.com/quote/VWO/','https://finance.yahoo.com/quote/BWX/','https://finance.yahoo.com/quote/IEF/']
+#update your holdings correspondingly.
 currentHoldings = [1,1,1,1,1,1]
 """Vanguard total Stock Market (VTI) = [1]
 Vanguard FTSE Europe (VGK) = [2]
